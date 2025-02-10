@@ -1,0 +1,7 @@
+#Set Ctrl + Backspace in .inputrc (Recommended)
+
+"\e[127;5u": backward-kill-word
+"\C-h": backward-kill-word
+
+# Execute the below command
+# bind -f ~/.inputrc
