@@ -48,3 +48,5 @@ tmux source-file ~/.tmux.conf
 
 echo "[+] Bind Ctrl+C - Delete previous word"
 bind -f ~/.inputrc
+
+echo "[+] Terminal setup completed :)"
