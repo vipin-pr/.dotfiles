@@ -8,6 +8,9 @@ alias grep='grep --color=always'
 alias cp='cp -i'
 alias rm='rm -i'
 
+if [ -f ~/.inputrc ]; then
+    source ~/.inputrc
+fi
 
 # Generate a strong password
 genpass() {
