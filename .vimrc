@@ -9,3 +9,4 @@ set hlsearch
 set ruler
 highlight Comment ctermfg=green
 set mouse=a
+set ignorecase
