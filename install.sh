@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "Setting emacs mode"
+echo "[+] Setting emacs mode"
 set -o emacs
 
 bashrc_home="~/.bashrc"
-echo "Cloning .dotfiles GitHub"
+echo "[+] Cloning .dotfiles GitHub"
 git clone --depth=1 https://github.com/vipin-pr/.dotfiles.git
 cd .dotfiles && git pull || cd
 
