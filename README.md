@@ -1,6 +1,6 @@
 **Tmux Shortcuts Documentation**
 
-*Prefix Key*
+**Prefix Key**
 Ctrl+k → New tmux prefix (replaces Ctrl+b)
 
 **Windows**
