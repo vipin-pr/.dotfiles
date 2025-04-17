@@ -13,8 +13,8 @@ alias rm='rm -i'
 # List SSH Host Names in ~/.ssh/config
 alias listhost="grep '^Host ' ~/.ssh/config | sed 's/^Host //' | tr ' ' '\n' | grep -v '^\*$' | sort -u"
 
-if [ -f ~/.inputrc ]; then
-    source ~/.inputrc
-fi
+#if [ -f ~/.inputrc ]; then
+#    source ~/.inputrc
+#fi
 
 
