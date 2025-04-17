@@ -16,7 +16,7 @@ if [ -f ~/.inputrc ]; then
 fi
 
 # List SSH Host Names in ~/.ssh/config
-alias list_hosts="grep '^Host ' ~/.ssh/config | sed 's/^Host //' | tr ' ' '\n' | grep -v '^\*$' | sort -u"
+alias listhosts="grep '^Host ' ~/.ssh/config | sed 's/^Host //' | tr ' ' '\n' | grep -v '^\*$' | sort -u"
 
 # Generate a strong password
 genpass() {
