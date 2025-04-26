@@ -1,8 +1,8 @@
 export PS1='\u@\h:\[\e[32m\]\w\[\e[0m\]\$ '
 export EDITOR='vim'
-set -o emacs
-#set -o vi
-#bind -m vi-insert '"jj": vi-movement-mode'
+#set -o emacs
+set -o vi
+bind -m vi-insert '"jj": vi-movement-mode'
 
 #Alias
 alias hc='history | grep -i'
