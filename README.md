@@ -7,14 +7,14 @@
 
 ## Windows
 - `Ctrl+k + n` → New window (in current path)  
-- `Ctrl+k + j` → Next window  
+- `Ctrl+k + j` → Next window
+- `Ctrl+k + h` → Previous window 
 - `Ctrl+k + w` → List all windows  
 - `Ctrl+k + r` → Rename current window  
 - `Ctrl+k + e` → Close current window (confirmation y/n)  
 
-### Optional Direct Window Selection
+### Direct Window Selection
 - `Ctrl+j` → Next window (no prefix needed)  
-- `Ctrl+h` → Previous window (commented out)  
 
 ---
 
