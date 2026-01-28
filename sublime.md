@@ -11,4 +11,6 @@
    { "vintageous_i_escape_jj": true }
 ```
 6. Save and reload NeoVintageous
+```
    Ctrl + Shift + p -> NeoVintageous: Reload .neovintageousrc file
+```
