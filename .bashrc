@@ -14,6 +14,8 @@ alias rm='rm -i'
 alias listhost="grep '^Host ' ~/.ssh/config | sed 's/^Host //' | tr ' ' '\n' | grep -v '^\*$' | sort -u"
 alias edithost="vim .ssh/config"
 alias bat='batcat'
+alias k='kubecolor'
+alias kubectl='kubecolor'
 
 # Two-line prompt for Bash
 prompt_color='\[\033[;32m\]'
