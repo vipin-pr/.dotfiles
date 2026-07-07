@@ -23,7 +23,7 @@
 #### **keybindings.json**
 
     ```json
-    [
+[
     {
         "key": "ctrl+j",
         "command": "workbench.action.nextEditor"
@@ -32,5 +32,5 @@
         "key": "ctrl+h",
         "command": "workbench.action.previousEditor"
     }
-    ]
+]
     ```
